@@ -1,8 +1,8 @@
 package br.com.tatianecosta.mylibraryescapetrapp
 
 class CalculatorExpenses {
-    fun calculateExpenses(value: Double): Double {
-        var totalExpense = totalExpense + value
-        return totalExpense
+    fun calculateExpenses(totalExpense: Double , value: Double): Double {
+        val total = totalExpense + value
+        return total
     }
 }
