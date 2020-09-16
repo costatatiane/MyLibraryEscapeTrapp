@@ -1,14 +1,8 @@
 package br.com.tatianecosta.mylibraryescapetrapp
 
 class CalculatorExpenses {
-    fun calculateExpenses(
-        ticketsExpenses: Double,
-        transportExpenses: Double,
-        foodExpenses: Double,
-        tourExpenses: Double,
-        shoppingExpenses: Double
-    ): Double {
-        val totalExpense = ticketsExpenses + transportExpenses + foodExpenses + tourExpenses + shoppingExpenses
+    fun calculateExpenses(value: Double): Double {
+        val totalExpense = totalExpense + value
         return totalExpense
     }
 }
